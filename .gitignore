@@ -13,6 +13,14 @@ bin-release/
 *.ipa
 *.apk
 
+#DS_Store
+.DS_Store
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+data/.ipynb_checkpoints
+data/.ipynb_checkpoints/*.ipynb
+
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
